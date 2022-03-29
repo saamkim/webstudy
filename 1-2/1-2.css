@@ -1,0 +1,22 @@
+.profile{
+    width: 120px;
+    margin: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 6px black}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.title1{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 17px;
+    font-family: monospace;
+}
