@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Docu</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="alert-box" id="alert">
+        ===알림창===
+        <button onclick="closeAlert()">없애기</button>
+    </div>
+    <button onclick="showAlert()">나오기</button>
+
+    <script>
+        
+        function closeAlert() {
+            document.getElementById('alert').style.display = 'none';
+        }
+
+        function showAlert() {
+            document.getElementById('alert').style.display = 'block';
+        }
+
+    </script>
+
+</body>
+</html>
