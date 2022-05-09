@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body style="background-color: #191c1d">
+    <div class="container">
+        <div class="header">
+            <input type="text" id="inputText" placeholder="내용 입력...">
+            <div id="centerAdd">
+                <span onclick="newElement()" id="add_button">Add</span>
+            </div>
+        </div>
+        <ul id="element_list">
+            <li>엔터 또는 클릭해서 생성</li>
+            <li>클릭해서 없애기</li>
+            <li>메모1</li>
+            <li>메모2</li>
+            <li>메모3</li>
+        </ul>
+        <p id="delete_all" onclick="deleteAll()">Delete All</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
